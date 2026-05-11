@@ -1,0 +1,72 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* Jackaroo Game CSS */
+
+/* General styles */
+.root {
+    -fx-font-family: 'Verdana';
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #8B4513;
+    -fx-text-fill: #f9e4b7;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #a0522d;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0.5, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #6b3513;
+    -fx-scale-y: 0.98;
+    -fx-scale-x: 0.98;
+}
+
+/* Text field styles */
+.text-field {
+    -fx-background-color: #f9e4b7;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-padding: 8;
+}
+
+.text-field:focused {
+    -fx-effect: dropshadow(gaussian, rgba(255,215,0,0.4), 10, 0.5, 0, 0);
+}
+
+/* Dialog styling */
+.dialog-pane {
+    -fx-background-color: #5a4c42;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #f9e4b7;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: #3c2f2f;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #f9e4b7;
+}
+
+/* Scroll bar styling */
+.scroll-bar {
+    -fx-background-color: #3c2f2f;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #8b7355;
+    -fx-background-radius: 8;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #a08365;
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */

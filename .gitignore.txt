@@ -1,0 +1,23 @@
+# Compiled class files
+*.class
+
+# Eclipse
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# JavaFX / Java
+hs_err_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
